@@ -1,0 +1,168 @@
+{
+  "__defsec_metadata": {
+    "endline": 3,
+    "explicit": false,
+    "filepath": "main.tf",
+    "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+    "managed": true,
+    "resource": "aws_s3_bucket.my-bucket",
+    "sourceprefix": "",
+    "startline": 1
+  },
+  "acl": {
+    "endline": 3,
+    "explicit": false,
+    "filepath": "main.tf",
+    "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+    "managed": true,
+    "resource": "aws_s3_bucket.my-bucket",
+    "sourceprefix": "",
+    "startline": 1,
+    "value": "private"
+  },
+  "bucketlocation": {
+    "endline": 3,
+    "explicit": false,
+    "filepath": "main.tf",
+    "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+    "managed": true,
+    "resource": "aws_s3_bucket.my-bucket",
+    "sourceprefix": "",
+    "startline": 1,
+    "value": ""
+  },
+  "encryption": {
+    "__defsec_metadata": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1
+    },
+    "algorithm": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": ""
+    },
+    "enabled": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": false
+    },
+    "kmskeyid": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": ""
+    }
+  },
+  "logging": {
+    "__defsec_metadata": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1
+    },
+    "enabled": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": false
+    },
+    "targetbucket": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": ""
+    }
+  },
+  "name": {
+    "endline": 2,
+    "explicit": true,
+    "filepath": "main.tf",
+    "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+    "managed": true,
+    "parent": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1
+    },
+    "resource": "aws_s3_bucket.my-bucket.bucket",
+    "sourceprefix": "",
+    "startline": 2,
+    "value": "evil"
+  },
+  "versioning": {
+    "__defsec_metadata": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1
+    },
+    "enabled": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": false
+    },
+    "mfadelete": {
+      "endline": 3,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "8f5a22ac7643fb0f1b9a38406195cbc4ab18fc8f6a55c1dec4d2a352a5916bbd",
+      "managed": true,
+      "resource": "aws_s3_bucket.my-bucket",
+      "sourceprefix": "",
+      "startline": 1,
+      "value": false
+    }
+  }
+}

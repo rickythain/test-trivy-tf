@@ -1,0 +1,56 @@
+{
+  "__defsec_metadata": {
+    "endline": 14,
+    "explicit": false,
+    "filepath": "main.tf",
+    "fskey": "517f092833034f8febc57ca5c7e323ece75ab696bc4925e18e64057c2635a008",
+    "managed": true,
+    "resource": "aws_ebs_volume.example02[0]",
+    "sourceprefix": "",
+    "startline": 5
+  },
+  "encryption": {
+    "__defsec_metadata": {
+      "endline": 14,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "517f092833034f8febc57ca5c7e323ece75ab696bc4925e18e64057c2635a008",
+      "managed": true,
+      "resource": "aws_ebs_volume.example02[0]",
+      "sourceprefix": "",
+      "startline": 5
+    },
+    "enabled": {
+      "endline": 10,
+      "explicit": true,
+      "filepath": "main.tf",
+      "fskey": "517f092833034f8febc57ca5c7e323ece75ab696bc4925e18e64057c2635a008",
+      "managed": true,
+      "parent": {
+        "endline": 14,
+        "explicit": false,
+        "filepath": "main.tf",
+        "fskey": "517f092833034f8febc57ca5c7e323ece75ab696bc4925e18e64057c2635a008",
+        "managed": true,
+        "resource": "aws_ebs_volume.example02[0]",
+        "sourceprefix": "",
+        "startline": 5
+      },
+      "resource": "aws_ebs_volume.example02[0].encrypted",
+      "sourceprefix": "",
+      "startline": 10,
+      "value": true
+    },
+    "kmskeyid": {
+      "endline": 14,
+      "explicit": false,
+      "filepath": "main.tf",
+      "fskey": "517f092833034f8febc57ca5c7e323ece75ab696bc4925e18e64057c2635a008",
+      "managed": true,
+      "resource": "aws_ebs_volume.example02[0]",
+      "sourceprefix": "",
+      "startline": 5,
+      "value": ""
+    }
+  }
+}

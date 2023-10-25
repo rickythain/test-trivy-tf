@@ -1,0 +1,1 @@
+# testing custom policy (terraform) using trivy
